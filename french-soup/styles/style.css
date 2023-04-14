@@ -1,9 +1,121 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, h2, h3, body, html, main {
   margin: 0;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+
 }
+
+
+h1 { 
+  display: flex;
+  justify-content: center;
+  font-size: 3.3em;
+  color:white;
+  padding-top: 11.2em;
+  
+}
+
+h2{
+  font-size: 1em;
+  margin-left: 80px;
+  padding-left: 90px;
+  padding-top: 25px;
+  padding-bottom: 18px;
+}
+
+h3 {
+  font-size: 1em;
+  margin-left: 80px;
+  padding-left: 90px;
+  padding-top: 25px;
+  padding-bottom: 12px;
+  font-weight: 20px;
+} 
+
+section { 
+  background-image: url("../images/soup.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 990px;
+  margin-top: -300px;
+}
+
+.paragh {
+  font-size: 15px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+#ima{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  padding-bottom: 15px;
+  
+}
+
+hr{
+  width: 73.5%;
+  font-weight: bold;
+ 
+}
+
+ #imags {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  height: 75px;
+  
+}
+
+.listpositioning {
+  font-size: 15px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  padding-left: 140px;
+  padding-right: 167px;
+  
+}
+
+
+ol li {
+  list-style-type: none; 
+  margin-bottom: 11px;
+  counter-increment: ol-counter;
+}
+
+ol li::before {
+  content: counter(ol-counter) ") ";
+}
+
+ 
+ul {
+  font-size: 13.5px;
+  margin: 0 auto;
+  padding-left: 175px;
+  padding-bottom: 30px;
+  
+ }
+
+ul li{ 
+  list-style-type: none; 
+  margin-bottom: 5px;
+}
+
+ul li::before {
+content:  "-";
+}
+

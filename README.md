@@ -104,8 +104,8 @@ Once you have a clear understanding of the problem, you will be able to start wo
 <details>
   <summary>How can I style an ordered list <code>ol</code> to use parentheses (e.g., 1), 2) ) instead of dots?</summary>
   <br>
-
-You can use [CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_counters) to style an ordered list (`ol`) element to use parentheses (e.g., 1), 2) ). Here's how to do it:  
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_counters
+You can use [CSS counters]() to style an ordered list (`ol`) element to use parentheses (e.g., 1), 2) ). Here's how to do it:  
 
 
 1. First, you need to remove the default list style
